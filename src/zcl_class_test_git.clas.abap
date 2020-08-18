@@ -13,7 +13,7 @@ ENDCLASS.
 
 CLASS zcl_class_test_git IMPLEMENTATION.
   METHOD display_data.
-WRITE : 'Test Program'.
+
   ENDMETHOD.
 
 ENDCLASS.
