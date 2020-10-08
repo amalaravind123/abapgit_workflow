@@ -5,6 +5,7 @@ CLASS zcl_class_test_git DEFINITION
 
 PUBLIC SECTION.
 METHODS display_data.
+METHODS get_data.
 PROTECTED SECTION.
 PRIVATE SECTION.
 ENDCLASS.
@@ -13,6 +14,10 @@ ENDCLASS.
 
 CLASS zcl_class_test_git IMPLEMENTATION.
   METHOD display_data.
+
+  ENDMETHOD.
+
+  METHOD get_data.
 
   ENDMETHOD.
 
