@@ -1,22 +1,26 @@
-CLASS zcl_class_test_git DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_CLASS_TEST_GIT definition
+  public
+  final
+  create public .
 
-PUBLIC SECTION.
-METHODS display_data.
+public section.
 
+  methods DISPLAY_DATA .
+  methods GET_DATA .
 PROTECTED SECTION.
 PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS zcl_class_test_git IMPLEMENTATION.
+CLASS ZCL_CLASS_TEST_GIT IMPLEMENTATION.
+
+
   METHOD display_data.
 
   ENDMETHOD.
 
 
-
+  method GET_DATA.
+  endmethod.
 ENDCLASS.
